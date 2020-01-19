@@ -14,6 +14,8 @@ function App() {
       <div>
         
       <br></br>
+      <br></br>
+      
         <Route exact path="/" component={Home} />
         <br></br>
         <Route exact path="/about" component={About} />
@@ -22,7 +24,9 @@ function App() {
         <br></br>
         <Route path="/contact" component={Contact} />
         <br></br>
+        
       </div>
+      
     </Router>
   );
 }
