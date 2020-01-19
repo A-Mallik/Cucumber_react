@@ -5,8 +5,8 @@ function NavTabs() {
   return (
     <ul className="nav nav-tabs" >
       <li className="nav-item">
-        <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
-          Home
+        <Link to="/" className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+          FRAMEWORK
         </Link>
       </li>
       <li className="nav-item">
@@ -15,7 +15,7 @@ function NavTabs() {
           
           className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
         >
-          About Selenium
+          PROJECT
         </Link>
       </li>
       <li className="nav-item">
@@ -23,15 +23,15 @@ function NavTabs() {
           to="/blog"
           className={window.location.pathname === "/blog" ? "nav-link active" : "nav-link"}
         >
-          Project
+          ABOUT
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/contact"
-          className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+          to="/"
+          className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
         >
-          Framework
+          HOME
         </Link>
       </li>
       {/* <li className="nav-item">

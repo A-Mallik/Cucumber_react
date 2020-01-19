@@ -5,19 +5,23 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Blog from "./components/pages/Blog";
 import Contact from "./components/pages/Contact";
-
+import { Grid, Image } from 'semantic-ui-react'
 
 function App() {
   return (
     <Router>
-       <NavTabs />
+       <NavTabs  />
       <div>
-     
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/blog" component={Blog} />
-        <Route path="/contact" component={Contact} />
         
+      <br></br>
+        <Route exact path="/" component={Home} />
+        <br></br>
+        <Route exact path="/about" component={About} />
+        <br></br>
+        <Route exact path="/blog" component={Blog} />
+        <br></br>
+        <Route path="/contact" component={Contact} />
+        <br></br>
       </div>
     </Router>
   );

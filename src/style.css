@@ -1,5 +1,5 @@
 html{
-   
+
     
 }
 
@@ -7,47 +7,84 @@ html{
 
 body {
     margin: 0 auto;
-    background-color: #282c34;
-    color: white;
+    color: #282c34;
     font-family: Arial;
     text-align: center;
     text-decoration: none;
+    min-width: 80vw;
+    background-image: url('./images/cucumber.png');
+    background-repeat:no-repeat;
+    background-position: 130% 560%;
+    background-image: opacity;
+    background-color: #ebf0cd;
+  }
+
+  .rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
   }
 
   #title{
+    /* white-space: nowrap;  */
+    /* fixes wrap */
       width:100vw;
+      line-height: 3em;
+      min-height: 30px;
+      overflow:hidden;
     font-weight:bold;
     justify-content: center;
     padding: 50px;
-    font-size: 80px;
+    
+    font-family: 'Catamaran', sans-serif;
     text-decoration: none;
   }
 
+  #titleName{
+    font-size: 80px;
+  }
   .nav{
     width:100vw;
-    justify-content: center;
-   
-   
+    justify-content: right;
+    padding-bottom:20px;
+ 
+  ;
 
   }
   ul {
     margin: 0;
     border-bottom: 1px solid white;
+    
   }
   ul.nav.nav-tabs{
-  
-    padding:25px;
+    margin:0;
+    display: inline;
+   
+
   }
   .nav-item{
     padding-right:150px;
     height:100%;
     text-decoration: none;
     display:inline-block;
-    float: none;
+    padding:20px;
+vertical-align:top; 
+  float:right;
+  height:50px;
+   
+  
   }
 
   .nav-link{
-      color: white;
+      color:  #282c34;
+
       text-decoration: none;
   }
 
@@ -58,6 +95,8 @@ body {
   }
 
   #home{
-      height:100vh;
-      background-image: url("https://images.unsplash.com/photo-1563289469-f26ed6a41d38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+      
+      
+      /* background-image: url("https://images.unsplash.com/photo-1563289469-f26ed6a41d38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"); */
+      
   }

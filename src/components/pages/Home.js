@@ -1,6 +1,6 @@
 import React from "react";
-import { Image, Reveal } from 'semantic-ui-react';
-
+import {  Grid,Image, Reveal } from 'semantic-ui-react';
+import cucumber from '../../images/cucumber.png'
 
 
 
@@ -8,23 +8,20 @@ function Home() {
   return (
     <div id="home">
       <br></br>
-      <div id="title">TalenTech Project: Team Cucumber 
-      <br></br>
-        <h2> BDD Project: FreeCRM </h2>
-      <br /></div>
-          
+      <div id="title"><span id="titleName">TALENTECH PROJECT: TEAM CUCUMBER</span>
+      
+      <h1> BDD Project: FreeCRM </h1>
       
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
-      </p>
+      <br />
+      
+      <a href="https://cucumber.io/"><img class="rotate" id="img2" src={cucumber} width="350"></img></a>
+      <br /></div>
+      
+      <h1> Subaha &nbsp;&nbsp; | &nbsp;&nbsp;  Shohan  &nbsp;&nbsp; |&nbsp;&nbsp;   Habibur</h1>
+     
+
+    
     </div>
   );
 }
