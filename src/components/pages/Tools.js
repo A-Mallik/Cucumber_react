@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
-import testReport from '../../images/testss.png'
+import TestReport from '../../images/testss.png'
+import Jira from '../../images/jiraSS.png'
 
 
 function Tools(props) {
@@ -12,7 +13,10 @@ function Tools(props) {
         <br></br>
         <div class="listI">
           
-     <div className = "tools">
+     <div className = "listI">
+            <span class="stickOut">JIRA</span> - Jira is a proprietary issue tracking product developed by Atlassian that allows bug tracking and agile project management.<br></br>
+            </div>
+     <div className = "listI">
             <span class="stickOut">Java</span> - Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible.<br></br>
             </div>
             <div class="listI">
@@ -44,8 +48,10 @@ function Tools(props) {
            <span class="stickOut"> Extent Report and Cucumber Reports:</span> <br></br>
 
             </div>
-
-            <img  src={testReport} style={{"width":"90vw",}}></img> 
+            <h1>HTML Extent Report</h1>
+            <img  src={TestReport} style={{"width":"80vw",}}></img> 
+            <h1>JIRA</h1>
+            <img  src={Jira} style={{"width":"80vw",}}></img> 
             
             {/* <div class="listI">
             Jenkin-  An open source automation server. It helps to automate the non-human part of the software development process.<br></br>
