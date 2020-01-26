@@ -71,7 +71,7 @@ function Methodology() {
       <Grid.Column>
       <div className="names">
     
-       DLC is the opening of a defect and closing it is the cycle.
+       DLC stands for Defect life cycle, the opening of a defect and closing it in it's cycle.
  <br></br><br></br> 
 <div className="listI">&nbsp;&nbsp;&nbsp;&nbsp;Testers create defects then gives them to developers > They fix it >Then testers do Regression testing to make sure no other working parts near the original defect were affected by the fix. </div> 
         
