@@ -303,3 +303,25 @@ vertical-align:top;
         background-position: 50%;
         height: 600px;
        }
+
+       /* =================== Final =========================== */
+
+   #final{
+    position: relative;
+    top: 30px;
+    text-align: center;
+   }
+
+   .stickOut2{
+     font-weight: bold;
+     font-size:30px;
+     line-height: 30px;
+   }
+
+   .stickOut3{
+     padding-top: 30px;
+     padding-bottom: 30px;
+    font-weight: bold;
+    font-size:60px;
+    line-height: 30px;
+  }

@@ -7,9 +7,9 @@ function NavTabs() {
     <ul className="nav nav-tabs" >
     <li className="nav-item">
         <Link
-          to="/contact/learn"
-          className={window.location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
-        >  FINAL PROJECT
+          to="/final"
+          className={window.location.pathname === "/final" ? "nav-link active" : "nav-link"}
+        >  FINAL WORDS
         </Link>
       </li>
     <li className="nav-item">
