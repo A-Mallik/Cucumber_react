@@ -19,8 +19,8 @@ function Final() {
       <div  className="stickOut3">And Finally....</div>
 
         <div className="stickOut2">
-        Thank you to Simon Bhai, Sabbir, and Juel for providing us with great knowledge and guidance.
-      We arefortunate to have such great instructors teaching us in TalenTech. 
+        A special Thank you to Simon Bhai, Sabbir, and Juel for providing us with great knowledge and guidance. All three were incredible instructors and masters of their trade.
+      We are very fortunate to have such great instructors teaching us here at TalenTech. 
       </div>
 
       <br></br>

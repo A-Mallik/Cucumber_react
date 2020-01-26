@@ -14,6 +14,15 @@ function Framework() {
         <br></br>
         <br></br>
       We used the Page Object Model, implementing a POM.xml file and Page Factory as well.
+      <br>
+      </br>
+      <br>
+      </br>
+      We organized our project with 5 primary packages for: Actions, Elements, Step Definitions, Utilities, and Runner class.  We also used Cucumber features to link our code with gherkin steps, and tied it together by using "glue" with Cucumber Options. 
+      <br>
+      </br>
+      <br>
+      </br>We also implemented Test reports using Cucumber Test Reports and Advent Reports as well.
       </h2>
 
       <hr className="hr"></hr>
