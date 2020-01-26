@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Blog from "./components/pages/Blog";
+import Tasks from "./components/pages/Tasks";
 import Contact from "./components/pages/Contact";
+import Project from "./components/pages/Project";
 import { Grid, Image } from 'semantic-ui-react'
 
 function App() {
@@ -18,9 +19,11 @@ function App() {
       
         <Route exact path="/" component={Home} />
         <br></br>
+        <Route path="/project" component={Project} />
+        <br></br>
         <Route exact path="/about" component={About} />
         <br></br>
-        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/tasks" component={Tasks} />
         <br></br>
         <Route path="/contact" component={Contact} />
         <br></br>

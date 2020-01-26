@@ -40,17 +40,17 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/about"
+          to="/tasks"
           
-          className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+          className={window.location.pathname === "/tasks" ? "nav-link active" : "nav-link"}
         >
           TASKS
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/about"
-          className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+          to="/project"
+          className={window.location.pathname === "/project" ? "nav-link active" : "nav-link"}
         >
           OUR PROJECT
         </Link>

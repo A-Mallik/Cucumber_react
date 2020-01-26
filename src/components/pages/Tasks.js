@@ -1,8 +1,8 @@
 import React from "react";
 
-function Learn() {
+function Tasks() {
   return (
-    <div class="content-space">
+    <div id="tasks" class="content-space">
       <h1 className="text-center">hello</h1>
       <p>
         Lorem ipsum dolor sit amet, est ut enim consequat. Nostrum fastidii partiendo sed ne, no
@@ -13,4 +13,4 @@ function Learn() {
   );
 }
 
-export default Learn;
+export default Tasks;
