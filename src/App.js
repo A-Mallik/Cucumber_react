@@ -9,6 +9,7 @@ import Project from "./components/pages/Project";
 import Framework from "./components/pages/Framework";
 import Tools from "./components/pages/Tools";
 import Methodology from "./components/pages/Methodology";
+import Demo from "./components/pages/Demo";
 import { Grid, Image } from 'semantic-ui-react'
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
       <br></br>
       
         <Route exact path="/" component={Home} />
+        <br></br>
+        <Route exact path="/demo" component={Demo} />
         <br></br>
         <Route exact path="/methodology" component={Methodology} />
         <br></br>

@@ -13,7 +13,7 @@ function Project() {
       <br></br>
     
       
-      <h1> BDD PROJECT: FreeCRM </h1>
+       <div className="text-center" >BDD PROJECT: FreeCRM</div> 
       <h2> We worked on testing different features of the customer relationship management website known as FreeCRM <span className="disabled">(https://www.freecrm.com)</span>. 
        <br></br> 
        <br></br> 

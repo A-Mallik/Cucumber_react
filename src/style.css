@@ -188,7 +188,7 @@ vertical-align:top;
     padding-bottom: 200px;
     text-align: center;
     position: relative;
-    top: -10px;
+    top: -20px;
   }
 
   .disabled{
@@ -264,11 +264,25 @@ vertical-align:top;
    #framework{
     position: relative;
     top: 10px;
+    text-align: center;
+   }
+
+   #ss5{
+     position: relative;
+     top: -756px;
+     padding-left: 10px;
+   }
+   /* =================== Methodology =========================== */
+
+   #methodology{
+    position: relative;
+    top: 30px;
+   
    }
     /* =================== Tools =========================== */
     #tools{
       position: relative;
-      top: 30px;
+      top: 10px;
     }
     .tools.listI{
       float:left;
@@ -278,3 +292,14 @@ vertical-align:top;
       text-align: left !important;
       justify-content: left !important;
     }
+
+      /* =================== Demo =========================== */
+      #demo{
+        position: relative;
+        top: 40px;
+        background-image:url('../src/images/jj.png');
+        background-repeat:no-repeat;
+        background-size: contain;
+        background-position: 50%;
+        height: 600px;
+       }

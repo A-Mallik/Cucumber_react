@@ -13,13 +13,7 @@ function Methodology() {
       A methodology of project management divided into tasks to perform short and frequent    tasks.
       </p>
 
-      <p className="tasksList">
-        use Gherkin syntax to write stories in standardized style
-      </p>
-      <p className="tasksList">Choose and set up BDD framework</p>
-      <p className="tasksList">
-        Run test cases using feature files, set up with cucumber options
-      </p>
+      <br></br>
 
       <hr className="hr"></hr>
       
@@ -79,9 +73,9 @@ function Methodology() {
     
        DLC is the opening of a defect and closing it is the cycle.
 ibur <br></br><br></br> 
-<div className="listI">Testers create defects then gives them to developers > They fix it >Then testers do Regression testing to make sure no other working parts near the original defect were affected by the fix. </div> 
+<div className="listI">&nbsp;&nbsp;&nbsp;&nbsp;Testers create defects then gives them to developers > They fix it >Then testers do Regression testing to make sure no other working parts near the original defect were affected by the fix. </div> 
         
-<div className="listI">Sometimes developers do not agree to the defect found by the testers > testers need to retest it and take down detailed information, screenshot, steps to reproduce, URL, Severity and Priority > if the developers don't agree to the defect > manage meeting with the developers to talk about the defect in details > if the developer still not convinced > report to your manager > they will have a meeting with( Leads, product owners, developers) > they will decide whether its a defect or not. </div> <br></br>
+<div className="listI">&nbsp;&nbsp;&nbsp;&nbsp;Sometimes developers do not agree to the defect found by the testers > testers need to retest it and take down detailed information, screenshot, steps to reproduce, URL, Severity and Priority > if the developers don't agree to the defect > manage meeting with the developers to talk about the defect in details > if the developer still not convinced > report to your manager > they will have a meeting with( Leads, product owners, developers) > they will decide whether its a defect or not. </div> <br></br>
         <br></br>
 
       </div>
