@@ -5,16 +5,37 @@ function NavTabs() {
   return (
     <div>
     <ul className="nav nav-tabs" >
+    <li className="nav-item">
+        <Link
+          to="/contact/learn"
+          className={window.location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
+        >  FINAL PROJECT
+        </Link>
+      </li>
+    <li className="nav-item">
+        <Link
+          to="/contact/learn"
+          className={window.location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
+        >  DEMO
+        </Link>
+      </li>
+    <li className="nav-item">
+        <Link
+          to="/contact/learn"
+          className={window.location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
+        >  METHODOLOGY
+        </Link>
+      </li>
         <li className="nav-item">
         <Link
           to="/contact/learn"
           className={window.location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
-        >   FINAL WORDS
+        >  TOOLS USED
         </Link>
       </li>
       <li className="nav-item">
         <Link to="/" className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-          PROJECT
+         FRAMEWORK
         </Link>
       </li>
       <li className="nav-item">
@@ -23,7 +44,7 @@ function NavTabs() {
           
           className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
         >
-          FRAMEWORK
+          TASKS
         </Link>
       </li>
       <li className="nav-item">
@@ -31,7 +52,7 @@ function NavTabs() {
           to="/about"
           className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
         >
-          ABOUT SELENIUM
+          OUR PROJECT
         </Link>
       </li>
       <li className="nav-item">

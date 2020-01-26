@@ -4,7 +4,7 @@ import Learn from "./Learn";
 
 function Contact(props) {
   return (
-    <div>
+    <div class="content-space">
       <h1>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.

@@ -2,7 +2,7 @@ import React from "react";
 
 function Learn() {
   return (
-    <div>
+    <div class="content-space">
       <h1 className="text-center">hello</h1>
       <p>
         Lorem ipsum dolor sit amet, est ut enim consequat. Nostrum fastidii partiendo sed ne, no

@@ -7,7 +7,7 @@ import logo from '../../images/TTC.png'
 
 function Home() {
   return (
-    <div id="home">
+    <div id="home" class="content-space">
       <br></br>
       <div id="title"><img id="logo" src={logo} width="200"></img><span id="titleName">TALENTECH: TEAM CUCUMBER</span>
       
