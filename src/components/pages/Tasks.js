@@ -31,7 +31,7 @@ function Tasks() {
     <Grid.Row>
       <Grid.Column>
       <div className="names">
-        Shohan- 3 user stories <br></br>
+        Shohan- 5 User Stories <br></br>
         <br></br>
         <div class="listI">
           
@@ -55,8 +55,7 @@ function Tasks() {
       <Grid.Column>
       <div className="names">
      
-      <br></br>
-        Subaha- 3 user stories <br></br>
+        Subaha- 3 User Stories <br></br>
         <br></br>
         <div class="listI">1) Login</div>
         <div class="listI">2) Create New Contact</div>
@@ -74,8 +73,7 @@ function Tasks() {
       </Grid.Column>
       <Grid.Column>
       <div className="names">
-     
-      <br></br>
+    
        Habibur <br></br><br></br> <div className="listI">Motivation Support</div> <br></br>
         <br></br>
 

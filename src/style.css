@@ -9,7 +9,7 @@ body {
    
     color: #282c34;
     font-family: Arial;
-    text-align: center;
+    
    
     min-width: 100vw;
    
@@ -149,7 +149,7 @@ vertical-align:top;
  
   
    
-    0 5px 20px rgba(0,0,0,.3);
+    0 5px 20px rgba(0,0,0,.2);
   }
 
   .hr{
@@ -159,6 +159,10 @@ vertical-align:top;
     opacity: 0.1;
   }
 
+  .stickOut{
+    font-weight: bold;
+  }
+
   /* =================== Home =========================== */
   #home{
     position: relative;
@@ -166,6 +170,7 @@ vertical-align:top;
    top: -150px;
     padding-bottom: 200px;
     overflow:hidden; 
+    text-align: center;
   }
 
   #logo{
@@ -181,6 +186,9 @@ vertical-align:top;
   #project{
     z-index:0;
     padding-bottom: 200px;
+    text-align: center;
+    position: relative;
+    top: -10px;
   }
 
   .disabled{
@@ -219,8 +227,11 @@ vertical-align:top;
    /* =================== Tasks =========================== */
 
    #tasks{
+     position: relative;
+     top: -50px;
      min-height: 500px;
      list-style-type: none;
+     text-align: center;
    }
 
    .tasksList{
@@ -238,6 +249,7 @@ vertical-align:top;
     padding-top: 30px;
     font-size: 30px;
     font-weight: bold;
+    line-height: 30px;
   }
 
   .listI{
@@ -246,3 +258,23 @@ vertical-align:top;
     font-size: 22px;
     font-weight: normal;
   }
+
+   /* =================== Framework =========================== */
+
+   #framework{
+    position: relative;
+    top: 10px;
+   }
+    /* =================== Tools =========================== */
+    #tools{
+      position: relative;
+      top: 30px;
+    }
+    .tools.listI{
+      float:left;
+      display: flex;
+  flex-wrap: wrap;
+  align-content: left;
+      text-align: left !important;
+      justify-content: left !important;
+    }
