@@ -12,6 +12,13 @@ function NavTabs() {
         >  FINAL WORDS
         </Link>
       </li>
+      <li className="nav-item">
+        <Link
+          to="/challenges"
+          className={window.location.pathname === "/challenges" ? "nav-link active" : "nav-link"}
+        >  CHALLENGES
+        </Link>
+      </li>
     <li className="nav-item">
         <Link
           to="/demo"

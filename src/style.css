@@ -108,9 +108,11 @@ body {
     text-decoration: none;
     display:inline-block;
     padding:20px;
-vertical-align:top; 
+   vertical-align:top; 
   float:right;
   height:50px;
+  font-weight:bold;
+  font-size:12px;
    
   
   }
@@ -325,3 +327,34 @@ vertical-align:top;
     font-size:60px;
     line-height: 30px;
   }
+       /* =================== Challenges =========================== */
+
+   #challenges{
+    position: relative;
+    top: 30px;
+    text-align: center;
+   }
+
+   .stickOut2{
+     font-weight: bold;
+     font-size:30px;
+     line-height: 30px;
+   }
+
+   .stickOut4{
+     padding-top: 30px;
+     padding-bottom: 30px;
+    font-weight: bold;
+    font-size:60px;
+    line-height: 30px;
+    padding:20px;
+  }
+
+  .stickOut3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+   font-weight: bold;
+   font-size:60px;
+   line-height: 30px;
+   padding:20px;
+ }

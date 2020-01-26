@@ -1,21 +1,12 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
+import testReport from '../../images/testss.png'
 
 
 function Tools(props) {
   return (
     <div class="content-space" id="tools">
-
-     
-        
-      
-        
-         
-         
-      
-          
-      
-           <div className="names">
+      <div className="names">
           <div className="text-center"> What tools and language we used?<br></br><br></br></div>
            <hr className="hr"></hr>
         <br></br>
@@ -49,6 +40,12 @@ function Tools(props) {
             <div class="listI">
            <span class="stickOut"> Gherkin</span> - the format for cucumber specifications. It is a domain specific language which helps you to describe business behavior without the need to go into detail of implementation.<br></br>
             </div>
+            <div class="listI">
+           <span class="stickOut"> Extent Report and Cucumber Reports:</span> <br></br>
+
+            </div>
+
+            <img  src={testReport} style={{"width":"90vw",}}></img> 
             
             {/* <div class="listI">
             Jenkin-  An open source automation server. It helps to automate the non-human part of the software development process.<br></br>
