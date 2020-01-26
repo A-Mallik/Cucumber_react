@@ -22,7 +22,7 @@ function Framework() {
       <br>
       </br>
       <br>
-      </br>We also implemented Test reports using Cucumber Test Reports and Advent Reports as well.
+      </br>We also implemented Test reports using Cucumber Test Reports and Extent Reports as well.
       </h2>
 
       <hr className="hr"></hr>
@@ -35,7 +35,7 @@ function Framework() {
       </p>
 
       <p className="tasksList">
-      <span className="stickOut">BDD</span> is behavior driven development( (think of it that way that BDD is an additional tool to be more agile). BDD test cases being written in a common language and understood by all. It is a development in agile software development process. It is to create simple scenarios. Cucumber is a test framework that supports BDD. Gherkin is a language that cucumber understands.
+      <span className="stickOut">BDD</span> stands for behavior driven development. BDD test cases being written in a common language and understood by all. It is a development in agile software development process. It is to create simple scenarios. Cucumber is a test framework that supports BDD. Gherkin is a language that cucumber understands.
 
       </p>
      
