@@ -9,7 +9,7 @@ function Home() {
   return (
     <div id="home" class="content-space">
       <br></br>
-      <div id="title"><img id="logo" src={logo} width="200"></img><span id="titleName">TALENTECH: TEAM CUCUMBER</span>
+      <div id="title" ><img id="logo" src={logo} width="200"></img><span id="titleName">TALENTECH: TEAM CUCUMBER</span>
       
       <h1> BDD PROJECT: FreeCRM </h1>
       
